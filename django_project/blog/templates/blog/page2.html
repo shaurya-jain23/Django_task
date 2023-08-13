@@ -1,0 +1,23 @@
+{% extends "blog/base.html" %}
+{% block title %}
+    <title>Page 2</title>
+{% endblock title %}
+{% block content %}
+
+    
+    </head>
+    <body>
+    <header>
+    <h1>Page 2 Content</h1>
+    </header>
+    <nav>
+    <ul>
+        <li><a href="{% url 'blog-home' %}">Home</a></li>
+        <li><a href="{% url 'blog-page1' %}">Page 1</a></li>
+    </ul>
+    </nav>
+    <main>
+    <p>This is the content of Page 2.</p>
+    </main>
+  
+{% endblock content %}
